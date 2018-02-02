@@ -1,7 +1,48 @@
-.card {
-    width: 220px;
+.app {
+    width: 1024px;
+}
+.hot {
+    width: 270px;
+    position: absolute;
+    right: 810px;
+    top: 300px;
 }
 
 a {
     margin: 5px;
+}
+
+.house {
+    width: 270px;
+    position: absolute;
+    right: 810px;
+    top: 480px;
+}
+
+.block-title {
+    margin-bottom: 20px;
+    position: relative;
+    top: 570px;
+    left: 190px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    border-bottom: 2px solid #d0d0d0;
+    font-size: 16px;
+    color: #212121;
+}
+
+.block-text {
+    position: absolute;
+    left: 40px;
+    margin-top: -13px;
+}
+
+.left-solid {
+    position: absolute;
+    left: 20px;
+    height: 16px;
+    width: 4px;
+    background-color: #ff9300;
+    border-radius: 2px;
 }

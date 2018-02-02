@@ -1,11 +1,26 @@
+
+.yijj-header {
+    width: 1224px;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+}
+.yijj-Nav {
+    position: relative;
+    left: 200px;
+    height: 40px;
+    line-height: 40px;
+}
 .search {
     text-align: center;
+    margin: 0 auto;
     position: absolute;
-    left: 50%;
+    top: 20px;
+    left: 130px;
 }
 
 .login {
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 10px;
+    right: 345px;
 }

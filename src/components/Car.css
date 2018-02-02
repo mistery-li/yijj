@@ -1,0 +1,62 @@
+.auto-image {
+    width: 740px;
+    height: 356px;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+}
+
+.block {
+    display: block;
+    float: left;
+    position: relative;
+    top: 200px;
+    left: 190px;
+}
+
+.block-item {
+    display: block;
+    height: 136px;
+    width: 242px;
+    padding-left: 98px;
+    padding-right: 26px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    top: 190px;
+    float: left;
+
+}
+.block-item-left {
+    position: relative;
+    float: left;
+    margin-left: -98px;
+}
+.crowm {
+    position: absolute;
+    left: -1px;
+    top: -7px;
+}
+.avatar{
+    position: relative;
+    margin-left: 16px;
+    margin-top: 30px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    background-clip: padding-box;
+}
+.title {
+    margin: 18px 0 10px;
+    font-weight: 400;
+}
+
+h3 {
+    display: block;
+}
+p {
+    display: block;
+}

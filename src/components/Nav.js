@@ -24,8 +24,8 @@ class Navigate extends React.Component {
     render() {
         return (
             <div className="header">
-                <NavSearch text="在此搜索你想看的宝贝" search="search" />
-                <Menu
+                <NavSearch text="在此搜索你想看的宝贝" />
+                <Menu className="yijj-Nav"
                     onClick={this.handleClick}
                     selectedKeys={[this.state.current]}
                     mode="horizontal"
@@ -45,11 +45,7 @@ class Navigate extends React.Component {
                     <Menu.Item key="all-test">
                         <Icon type="all-test" />众测
                     </Menu.Item>
-                    <div className="login">
-                        <a href="#" target="blank">登录</a>
-                        <span> | </span>
-                        <a href="#" target="blank">注册</a>
-                    </div>
+
                 </Menu>
 
 
@@ -61,13 +57,18 @@ class Navigate extends React.Component {
 
 function NavSearch(props) {
     return (
-        <div>
+        <div className="yijj-header">
             <a href="/">一jiajia-家居装修生活平台</a>
             <Search placeholder={props.text}
                 style={{ width: 200 }}
                 addonAfter="搜索"
-                className={props.search}
+                className="search"
             />
+            <div className="login">
+                <a href="#" target="blank">登录</a>
+                <span> | </span>
+                <a href="#" target="blank">注册</a>
+            </div>
         </div>
     )
 }
