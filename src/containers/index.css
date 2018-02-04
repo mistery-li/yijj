@@ -1,10 +1,12 @@
 .app {
     width: 1024px;
+    margin: 0;
+    padding: 0;
 }
 .hot {
     width: 270px;
     position: absolute;
-    right: 810px;
+    left: 999px;
     top: 300px;
 }
 
@@ -15,7 +17,7 @@ a {
 .house {
     width: 270px;
     position: absolute;
-    right: 810px;
+    left: 999px;
     top: 480px;
 }
 
@@ -30,6 +32,8 @@ a {
     border-bottom: 2px solid #d0d0d0;
     font-size: 16px;
     color: #212121;
+    width: 750px;
+    margin-bottom: 20px;
 }
 
 .block-text {

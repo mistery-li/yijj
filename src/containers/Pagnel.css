@@ -1,0 +1,61 @@
+.article {
+    width: 750px;
+    position: relative;
+    top: 570px;
+    left: 170px;
+    border: 1px solid #d3d3d3;
+    height: 240px;
+    margin: 20px;
+}
+
+.article-pic {
+    width: 320px;
+    height: 218px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.article-title {
+    position: absolute;
+    left: 330px;
+    top: 20px;
+}
+
+.article-desc {
+    position: absolute;
+    top: 50px;
+    left: 340px;
+    overflow: hidden;
+    width: 390px;
+    font-size: 13px;
+    line-height: 20px; 
+}
+
+.avatar-wrap {
+    position: absolute;
+    top: 140px;
+    left: 330px;
+    bottom: 12px;
+    font-size: 13px;
+}
+.avatar {
+    float: left;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.avatar-wrap span {
+    float: left;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.record-wrap {
+    position: absolute;
+    left: 630px;
+    top: 180px;
+    font-weight: 500;
+    font-size: 18px;
+}

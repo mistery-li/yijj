@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navigate from '../components/Nav';
 import { Car, LowerBlock } from '../components/Car';
-import { Card, Tooltip } from 'antd';
+import { Card, Tooltip, BackTop } from 'antd';
 import './index.css';
+import Router from 'react-router-dom/Router';
+import Pagnel from './Pagnel';
 
 class App extends React.Component {
     render() {
@@ -26,6 +29,17 @@ class App extends React.Component {
                 <div className="block-title">
                     <div className="left-solid"></div>
                     <span className="block-text">精选</span>
+                </div>
+                <div>
+                    <Pagnel />
+                    <Pagnel />
+                    <Pagnel />
+                    <Pagnel />
+                    <Pagnel />
+                    <Pagnel />
+                </div>
+                <div className="back-top">
+                    <BackTop />
                 </div>
             </div>
         )
