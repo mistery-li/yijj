@@ -7,53 +7,6 @@ const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 const Search = Input.Search;
 
-class Navigate extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            current: 'index',
-        }
-        this.handleClick = this.handleClick.bind(this);
-    }
-    handleClick = (e) => {
-        console.log('click', e);
-        this.setState({
-            current: e.key,
-        });
-    }
-    render() {
-        return (
-            <div className="header">
-                <NavSearch text="在此搜索你想看的宝贝" />
-                <Menu className="yijj-Nav"
-                    onClick={this.handleClick}
-                    selectedKeys={[this.state.current]}
-                    mode="horizontal"
-                >
-                    <Menu.Item key="index">
-                        <Icon type="index" />首页
-                    </Menu.Item>
-                    <Menu.Item key="look-image">
-                        <Icon type="look-image" />看图
-                    </Menu.Item>
-                    <Menu.Item key="all-house">
-                        <Icon type="" />屋主展
-                    </Menu.Item>
-                    <Menu.Item>
-                        <Icon type="house-says" />屋主说
-                    </Menu.Item>
-                    <Menu.Item key="all-test">
-                        <Icon type="all-test" />众测
-                    </Menu.Item>
-
-                </Menu>
-
-
-            </div>
-
-        );
-    }
-}
 
 function NavSearch(props) {
     return (
@@ -73,4 +26,4 @@ function NavSearch(props) {
     )
 }
 
-export default Navigate;
+export default NavSearch;
